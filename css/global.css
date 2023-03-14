@@ -1,4 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+@font-face {
+    font-family: 'Graphik';
+    src: url("../fonts/GraphikRegular.otf") format('opentype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Graphik';
+    src: url("../fonts/GraphikRegular.otf") format('opentype');
+    font-weight: 700;
+    font-style: normal;
+}
+
 
 * {
     margin: 0;
@@ -6,17 +21,28 @@
     box-sizing: border-box;
     text-decoration: none;
 }
-:root{
-    font-family: 'Roboto Condensed', sans-serif;
+
+:root {
+    --section-color-background-pricing: #252B42;
+    --section-border-color: #D8D8D8;
+    --section-background-for-inputs: #F4F4F4;
+    --section-title-size: 3rem;
+    --section-description-size: 1.75rem;
     --section-text-color: #FFFFFF;
     --section-text-color-description: #374754;
+    --section-color-backgound: #2091F9;
+    font-family: "Graphik", serif;
 }
-img{
+
+img {
     display: block;
     width: 100%;
 }
-.container{
-    max-width: 1775px;
+
+.container {
+    max-width: 1200px;
     margin: auto;
 }
+
+
 

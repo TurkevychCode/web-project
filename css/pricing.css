@@ -1,0 +1,61 @@
+.pricing{
+    background-color: var(--section-color-background-pricing);
+}
+
+.pricing__text{
+    color: var(--section-text-color);
+}
+
+.text__title-pricing{
+
+}
+
+.text__description-pricing{
+
+}
+
+.pricing__ticket{
+    width: 320px;
+    height: 600px;
+    border-radius: 10px;
+    background-color: var(--section-text-color);
+
+}
+
+.ticket__block{
+
+}
+
+.block__text-ticket{
+
+}
+
+.text-ticket__title{
+
+}
+
+.text-ticket__description{
+
+}
+
+.block__price-currency{
+
+}
+
+.price-currency__price-number{
+
+}
+
+.price-currency__price-currency{
+
+}
+
+.price-currency__price-month{
+
+}
+
+.block__pricing-feature{
+
+}
+
+.

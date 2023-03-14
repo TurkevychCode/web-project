@@ -1,4 +1,4 @@
-.container__header-content{
+.container__header-content {
     background-image: url("../img-lending-list/header-img/background-header-phone-version.png");
     background-size: cover;
     background-position: center;
@@ -6,37 +6,42 @@
     min-height: 1024px;
     padding-top: 20px;
 }
-.header-content__header-logos{
+
+.header-content__header-logos {
     width: 90%;
     margin: auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.header-logos__logo{
+
+.header-logos__logo {
     width: 186px;
     height: 58px;
 }
-.header-logos__burger{
+
+.header-logos__burger {
     width: 27px;
     height: 16px;
 }
-.header-content__text{
+
+.header-content__text {
     margin-top: 100px;
     display: flex;
     align-items: center;
     flex-direction: column;
     color: var(--section-text-color);
 }
-.text__title{
+
+.text__title {
     width: 300px;
     text-align: center;
     font-weight: 400;
-    font-size: 48px;
+    font-size: var(--section-title-size);
     letter-spacing: 0.2px;
 }
 
-.header-content__description{
+.header-content__description {
     width: 265px;
     margin: 45px 0 90px 0;
     text-align: center;
@@ -44,19 +49,21 @@
     font-size: 28px;
     letter-spacing: 0.2px;
 }
-.header-content__button{
+
+.header-content__button {
     display: flex;
     justify-content: center;
     align-items: center;
     margin: auto;
     width: 236px;
     height: 52px;
-    color: white;
-    background-color: #2091F9;
+    color: var(--section-text-color);
+    background-color: var(--section-color-backgound);
     border-radius: 35px;
 }
+
 @media (min-width: 500px) {
-    .container__header-content{
+    .container__header-content {
         background-image: url("../img-lending-list/header-img/background-header.png");
     }
 
